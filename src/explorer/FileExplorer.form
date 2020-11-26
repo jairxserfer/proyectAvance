@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="explorer.FileExplorer">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="44" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="-99" y="14" width="1091" height="989"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="dfdb2" class="javax.swing.JLabel" binding="fileLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="File Explorer"/>
+        </properties>
+      </component>
+      <component id="749c0" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="c5fe" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="e8cd5" class="javax.swing.JButton" binding="xButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="bf4cc" class="javax.swing.JButton" binding="newFolderButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="New Folder"/>
+        </properties>
+      </component>
+      <component id="dfbec" class="javax.swing.JButton" binding="newFileButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="685" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="New File"/>
+        </properties>
+      </component>
+      <component id="24b2b" class="javax.swing.JButton" binding="renameButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rename"/>
+        </properties>
+      </component>
+      <component id="cbc09" class="javax.swing.JButton" binding="moveButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Move"/>
+        </properties>
+      </component>
+      <component id="90ba0" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete"/>
+        </properties>
+      </component>
+      <component id="6f7c4" class="javax.swing.JButton" binding="startButton" default-binding="true">
+        <constraints>
+          <grid row="43" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="9f1e6" class="javax.swing.JButton" binding="fileExplorerButton" default-binding="true">
+        <constraints>
+          <grid row="43" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="685" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="File Explorer"/>
+        </properties>
+      </component>
+      <component id="be6a8" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="5" row-span="8" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="search"/>
+        </properties>
+      </component>
+      <component id="c6f2" class="javax.swing.JLabel" binding="routeL">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Route:"/>
+        </properties>
+      </component>
+      <grid id="d3592" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="0" row-span="33" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="12333" class="javax.swing.JLabel" binding="route">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="685" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="route label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
