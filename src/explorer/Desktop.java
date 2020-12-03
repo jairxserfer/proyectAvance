@@ -10,7 +10,9 @@ public class Desktop {
     private JButton youtubeButton;
     private JButton calcButton;
     private JPanel jPanel;
-    private JPanel space;
+    private JPanel jBotonesInicio;
+    private JPanel jBarraHerramientas;
+    private JPanel jBackground;
 
 
     public static void main(String[] args) {
