@@ -2,6 +2,7 @@ package explorer;
 
 import javax.swing.*;
 import java.awt.*;
+import java.security.DigestException;
 import javax.swing.ImageIcon;
 
 public class Desktop {
@@ -41,6 +42,7 @@ public class Desktop {
         youtubeButton.setVerticalAlignment(javax.swing.SwingConstants.CENTER);
         youtubeButton.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         youtubeButton.setVerticalTextPosition(javax.swing.SwingConstants.CENTER);
+        youtubeButton.setPreferredSize(new Dimension(20,20));
     }
 
 
