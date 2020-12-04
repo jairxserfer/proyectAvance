@@ -22,18 +22,22 @@
         <children>
           <component id="81c37" class="javax.swing.JButton" binding="fileExplorerButton" default-binding="true">
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
             </constraints>
             <properties>
-              <text value="File Explorer"/>
+              <text value=""/>
             </properties>
           </component>
           <component id="3a323" class="javax.swing.JButton" binding="youtubeButton" default-binding="true">
             <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="2" use-parent-layout="false">
-                <minimum-size width="100" height="100"/>
-                <preferred-size width="100" height="100"/>
-                <maximum-size width="100" height="100"/>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
               </grid>
             </constraints>
             <properties>
@@ -43,10 +47,14 @@
           </component>
           <component id="a13af" class="javax.swing.JButton" binding="calcButton" default-binding="true">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="50"/>
+                <preferred-size width="50" height="50"/>
+                <maximum-size width="50" height="50"/>
+              </grid>
             </constraints>
             <properties>
-              <text value="Calc"/>
+              <text value=""/>
             </properties>
           </component>
         </children>
