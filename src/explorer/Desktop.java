@@ -17,7 +17,7 @@ public class Desktop {
     private JPanel jBackground;
 
 
-    ImageIcon iconobtn = new ImageIcon(new ImageIcon("src/images/youtube-logo-5-2.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT));
+    ImageIcon iconobtn = new ImageIcon(new ImageIcon("src/images/youtube-app-icon-png-3.jpg").getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT));
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Desktop");
