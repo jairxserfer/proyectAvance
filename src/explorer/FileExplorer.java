@@ -1,6 +1,7 @@
 package explorer;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class FileExplorer {
     private JLabel fileLabel;
@@ -24,6 +25,7 @@ public class FileExplorer {
         frame.setContentPane(new FileExplorer().jpanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
+        frame.setSize(new Dimension(800,600));
         frame.setVisible(true);
     }
 }
