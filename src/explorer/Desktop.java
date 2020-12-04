@@ -16,7 +16,7 @@ public class Desktop {
     private JPanel jBarraHerramientas;
     private JPanel jBackground;
 
-    ImageIcon iconobtn = new ImageIcon("src/images/youtube-logo-5-2.jpg");
+    ImageIcon iconobtn = new ImageIcon("src/images/youtube.jpg");
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Desktop");
