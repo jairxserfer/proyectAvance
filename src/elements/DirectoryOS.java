@@ -3,13 +3,13 @@ package elements;
 public class DirectoryOS extends FileOS {
     String son, parent;
 
-    public DirectoryOS(String name, String location, String size, String son, String parent) {
+    public DirectoryOS(String name, String location, int size, String son, String parent) {
         super(name, location, size);
         this.son = son;
         this.parent = parent;
     }
 
-    public DirectoryOS(String name, String location, String size) {
+    public DirectoryOS(String name, String location, int size) {
         super(name, location, size);
     }
 
