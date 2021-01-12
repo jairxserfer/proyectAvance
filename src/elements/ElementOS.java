@@ -1,20 +1,21 @@
 package elements;
 
 public class ElementOS {
-    int id;
-    String name, type;
+    String id;
+    String name;
+    int type;
 
-    public ElementOS(int id, String name, String type) {
+    public ElementOS(String id, String name, int type) {
         this.id = id;
         this.name = name;
         this.type = type;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -26,11 +27,11 @@ public class ElementOS {
         this.name = name;
     }
 
-    public String getType() {
+    public int getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(int type) {
         this.type = type;
     }
 

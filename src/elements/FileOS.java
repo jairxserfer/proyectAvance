@@ -11,13 +11,25 @@ public class FileOS extends ElementOS {
     private String content, boos;
     private boolean reading, edition;
 
-    public FileOS(int id, String name, String type, String content, String boos, boolean reading, boolean edition) {
+    public FileOS(String id, String name, int type, String content, String boos, boolean reading, boolean edition) {
         super(id, name, type);
         this.content = content;
         this.boos = boos;
         this.reading = reading;
         this.edition = edition;
     }
+
+    public FileOS(String id, String name, int type, String content, String boos, boolean reading) {
+        super(id, name, type);
+        this.content = content;
+        this.boos = boos;
+        this.reading = reading;
+    }
+
+    public FileOS(String name, String location, int size) {
+        super(name, location, size);
+    }
+
 
     public String getContent() {
         return content;
